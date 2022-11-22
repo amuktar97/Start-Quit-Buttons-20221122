@@ -5,7 +5,10 @@ void setup() {} //End setup
 //
 void draw ()
 {
-  if ( noNowReallyStart==true ) background(0); //Night Mode not considered yet
+  if ( noNowReallyStart==true ) {
+    background(0); //Night Mode not considered yet
+    rect(); //Quit Button with Hovever
+  }
 } //End draw
 //
 void keyPressed ()
